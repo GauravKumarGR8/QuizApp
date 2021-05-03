@@ -9,8 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private String[] questions = {"The Java interpreter is used for the execution of the source code.", "The Java source code can be created in a Notepad editor.", "Java is a person.", "Java was introduced in 1233.", "Java has abstract classes."};
-    private boolean[] answer = {true,true,false,false,true};
+    private String[] questions = {"The Java interpreter is used for the execution of the source code.", "The Java source code can be created in a Notepad editor.", "Java is a person.", "Java was introduced in 1233.", "Java has abstract classes.", "Java was introduced before C++."};
+    private boolean[] answer = {true,true,false,false,true,false};
     private int score = 0;
     Button yes;
     Button no;
